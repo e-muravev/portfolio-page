@@ -23,28 +23,28 @@ function App() {
         <NavBar/>
         <NextButton opacity={0} cursor={'default'}/> {/*рамзеры кнопки понадобятся в компоненте Aligment*/}
         <Switch>
-          <Route exact path="/">
-            <Redirect to="/home" />
+          <Route exact path="portfolio-page/">
+            <Redirect to="portfolio-page/home" />
           </Route>
-          <Route path="/about">
+          <Route path="portfolio-page/about">
             <Aligment>
               <AboutMe/>
             </Aligment>
           </Route>
-          <Route path="/skills">
+          <Route path="portfolio-page/skills">
             <Aligment>
               <MySkills/>
             </Aligment>
           </Route>
-          <Route path="/projects">
+          <Route path="portfolio-page/projects">
             <MyProjects/>
           </Route>
-          <Route path="/contacts">
+          <Route path="portfolio-page/contacts">
             <Aligment>
               <Contacts/>
             </Aligment>
           </Route>
-          <Route path="/home">
+          <Route path="portfolio-page/home">
              <Aligment ignoreButtonSize={true}>
                 <HomePage/>
              </Aligment>
