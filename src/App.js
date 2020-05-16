@@ -26,7 +26,7 @@ function App() {
           <Route exact path="/">
             <Redirect to="/home" />
           </Route>
-          <Route exact path="/portfolio-page/">
+          <Route exact path="/portfolio-page">
             <Redirect to="/home" />
           </Route>
           <Route path="/about">
