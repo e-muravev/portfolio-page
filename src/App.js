@@ -27,7 +27,7 @@ function App() {
             <Redirect to="/home" />
           </Route>
           <Route exact path="/portfolio-page">
-            <Redirect to="/portfolio-page/home" />
+            <Redirect to="/home" />
           </Route>
           <Route path="/about">
             <Aligment>
