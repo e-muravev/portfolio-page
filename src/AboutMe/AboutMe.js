@@ -8,16 +8,16 @@ function AboutMe() {
 	
     let history = useHistory();
     const goNext = () => {
-       history.push("/skills");
+       history.push("/portfolio-page/skills");
 	}
 	const goPrevious = () => {
-		history.push("/")
+		history.push("/portfolio-page")
 	}
 	const goToProjects = () => {
-		history.push("/projects")
+		history.push("/portfolio-page/projects")
 	}
 	const goToSkills = () => {
-		history.push("/skills")
+		history.push("/portfolio-page/skills")
 	}
 	
 

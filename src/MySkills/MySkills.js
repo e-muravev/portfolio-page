@@ -11,10 +11,10 @@ function MySkills() {
     
     let history = useHistory();
     const goNext = () => {
-       history.push("/projects");
+       history.push("/portfolio-page/projects");
 	}
 	const goPrevious = () => {
-		history.push("/about")
+		history.push("/portfolio-page/about")
 	}
     
 

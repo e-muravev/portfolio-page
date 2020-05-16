@@ -9,10 +9,10 @@ function MyProjects() {
     
     let history = useHistory();
     const goNext = () => {
-       history.push("/contacts");
+       history.push("/portfolio-page/contacts");
 	}
 	const goPrevious = () => {
-		history.push("/skills")
+		history.push("/portfolio-page/skills")
     }
     
     const goExternURL = (url) => {

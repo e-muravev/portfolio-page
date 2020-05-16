@@ -22,7 +22,7 @@ function Contacts() {
 
     let history = useHistory();
     const goPrevious = () => {
-      history.push("/Projects");
+      history.push("/portfolio-page/Projects");
     }
 
     if(document.documentElement.clientWidth > 576)
