@@ -1,0 +1,16 @@
+.homepage {
+    padding: 0 30px;
+}
+
+.line-through {
+    text-decoration: line-through;
+    text-decoration-color: black;
+    text-decoration-thickness: 2;
+}
+
+
+@media (max-width: 576px) {
+    .homepage {
+        padding: 0;
+    }
+}

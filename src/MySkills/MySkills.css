@@ -1,0 +1,47 @@
+.MySkills {
+    width: 90%;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.MySkills p, .MySkills img {
+    animation-name: opacityChange;
+    animation-duration: 8s;
+}
+
+.HTML, .CSS, .JavaScript, .TypeScript_M,
+.React, .OOP, .C, .TypeScript_A, .Git,
+.NodeJS, .SequalizeORM_PostreSQL {
+    border: 1px solid rgb(15, 15, 15);
+    margin: 20px 0;
+    height: 30px;
+    background-color: #075f2f; 
+    animation-name: changeWidth;
+    animation-duration: 2s;
+    color: rgb(238, 232, 232);
+    padding: 0px 10px;
+}
+
+.TypeScript_A, .Git, .NodeJS, .SequalizeORM_PostreSQL {
+    background-color: #b99e03;
+}
+
+@keyframes changeWidth {
+    from {width: 1%;}
+    to {width: 100%;}
+}
+
+@keyframes opacityChange {
+    0% {opacity: 0;}
+    100% {opacity: 100;}
+}
+
+@media (max-width: 576px) {
+    .MySkills {
+        padding: 0 12.5px;
+        width: 100%;
+    }
+}
+
+
+

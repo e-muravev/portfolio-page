@@ -1,0 +1,91 @@
+.App {
+  text-align: center;
+}
+
+.flex-center {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.flex-end {
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+}
+
+.flex-space-between {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.red-color {
+	color: rgb(187, 5, 5);
+}
+
+.blue-color {
+	color: rgb(17, 5, 187);
+}
+
+.openProjects, .openMySkills {
+	transition: 0.15s ease-in;
+	cursor: pointer;
+	margin: 0 5px;
+}
+
+.openProjects:hover, .openMySkills:hover {
+	transform: scale(1.025);
+	opacity: 80%;
+}
+
+.openProjects:hover {
+	transform: scale(1.025);
+	opacity: 80%;
+}
+
+.arrow {
+	animation-name: arrow;
+	animation-iteration-count: infinite;
+	animation-duration: 1s;
+	animation-timing-function: ease-out;
+	width: 60px;
+}
+
+.active {
+	color: rgb(19, 4, 233);
+}
+
+@keyframes arrow {
+	from{transform:scale(0.8);}
+	to{transform:scale(1);}
+}
+
+.arise {
+	animation-name: pageArise;
+	animation-duration: 1.5s;
+	animation-timing-function: ease-in;
+}
+
+@keyframes pageArise {
+	from{opacity: 0;}
+	to{opacity: 100;}
+}
+
+button {
+	background-color: white;
+	color: rgb(19, 4, 233);
+	border: 2px solid rgb(19, 4, 233);
+	padding: 0.5rem 1.75rem;
+	cursor: pointer;
+	font-weight: bold;
+}
+
+@media (max-width: 576px) {
+	.arrow {
+		width: 30px;
+	}
+	.App {
+		text-align: center;
+	}
+}
