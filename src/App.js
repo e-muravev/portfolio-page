@@ -27,22 +27,22 @@ function App() {
             <Redirect to="/home" />
           </Route>
           <Route exact path="/portfolio-page">
-            <Redirect to="/home" />
+            <Redirect to="/portfolio-page/home" />
           </Route>
-          <Route path="/about">
+          <Route path="/portfolio-page/about">
             <Aligment>
               <AboutMe/>
             </Aligment>
           </Route>
-          <Route path="/skills">
+          <Route path="/portfolio-page/skills">
             <Aligment>
               <MySkills/>
             </Aligment>
           </Route>
-          <Route path="/projects">
+          <Route path="/portfolio-page/projects">
             <MyProjects/>
           </Route>
-          <Route path="/contacts">
+          <Route path="/portfolio-page/contacts">
             <Aligment>
               <Contacts/>
             </Aligment>
