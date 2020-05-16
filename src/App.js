@@ -27,7 +27,7 @@ function App() {
             <Redirect to="/home" />
           </Route>
           <Route exact path="/portfolio-page">
-            <Redirect to="/home" />
+            <Redirect to="/portfolio-page/home" />
           </Route>
           <Route path="/about">
             <Aligment>
@@ -47,7 +47,7 @@ function App() {
               <Contacts/>
             </Aligment>
           </Route>
-          <Route path="/home">
+          <Route path="/portfolio-page/home">
              <Aligment ignoreButtonSize={true}>
                 <HomePage/>
              </Aligment>
