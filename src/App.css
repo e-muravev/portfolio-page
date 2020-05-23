@@ -39,11 +39,6 @@
 	opacity: 0.8;
 }
 
-.openProjects:hover {
-	transform: scale(1.025);
-	opacity: 80%;
-}
-
 .arrow {
 	animation-name: arrow;
 	animation-iteration-count: infinite;

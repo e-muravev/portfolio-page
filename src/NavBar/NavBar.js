@@ -24,11 +24,11 @@ function NavBar() {
           <p style={{ marginLeft: '3px' }}>EVGENY MURAVEV PARTNERSHIP</p>
         </div>
           <ul className="navigation">
-            <li className="margin-right"> <NavLink className="link" to="/portfolio-page/home" onClick={toogleMenu}>HOME</NavLink> </li>
-            <li className="margin-right"> <NavLink className="link" to="/portfolio-page/about" onClick={toogleMenu}>ABOUT ME</NavLink> </li>
-            <li className="margin-right"> <NavLink className="link" to="/portfolio-page/skills" onClick={toogleMenu}>MY SKILLS</NavLink> </li>
-            <li className="margin-right"> <NavLink className="link" to="/portfolio-page/projects" onClick={toogleMenu}>MY PROJECTS</NavLink> </li>
-            <li> <NavLink className="link" to="/portfolio-page/contacts" onClick={toogleMenu}>CONTACTS</NavLink> </li>
+            <li className="margin-right"> <NavLink className="link" exact to="/" onClick={toogleMenu}>HOME</NavLink> </li>
+            <li className="margin-right"> <NavLink className="link" to="/about" onClick={toogleMenu}>ABOUT ME</NavLink> </li>
+            <li className="margin-right"> <NavLink className="link" to="/skills" onClick={toogleMenu}>MY SKILLS</NavLink> </li>
+            <li className="margin-right"> <NavLink className="link" to="/projects" onClick={toogleMenu}>MY PROJECTS</NavLink> </li>
+            <li> <NavLink className="link" to="/contacts" onClick={toogleMenu}>CONTACTS</NavLink> </li>
           </ul>
         <img src={menu_mobile} class="icon" alt="menu" width="23px" height="auto" onClick={toogleMenu} />
       </div>
