@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/portfolio-page/static/css/main.ba43f267.chunk.css",
-    "main.js": "/portfolio-page/static/js/main.c640b346.chunk.js",
-    "main.js.map": "/portfolio-page/static/js/main.c640b346.chunk.js.map",
+    "main.css": "/portfolio-page/static/css/main.a9648967.chunk.css",
+    "main.js": "/portfolio-page/static/js/main.c5fdca67.chunk.js",
+    "main.js.map": "/portfolio-page/static/js/main.c5fdca67.chunk.js.map",
     "runtime-main.js": "/portfolio-page/static/js/runtime-main.8748a961.js",
     "runtime-main.js.map": "/portfolio-page/static/js/runtime-main.8748a961.js.map",
-    "static/js/2.1922d788.chunk.js": "/portfolio-page/static/js/2.1922d788.chunk.js",
-    "static/js/2.1922d788.chunk.js.map": "/portfolio-page/static/js/2.1922d788.chunk.js.map",
+    "static/js/2.adacb11e.chunk.js": "/portfolio-page/static/js/2.adacb11e.chunk.js",
+    "static/js/2.adacb11e.chunk.js.map": "/portfolio-page/static/js/2.adacb11e.chunk.js.map",
     "index.html": "/portfolio-page/index.html",
-    "precache-manifest.5e046bbf87033a5374f4189395ff6c7f.js": "/portfolio-page/precache-manifest.5e046bbf87033a5374f4189395ff6c7f.js",
+    "precache-manifest.111ff0038787456ce7a997faba120399.js": "/portfolio-page/precache-manifest.111ff0038787456ce7a997faba120399.js",
     "service-worker.js": "/portfolio-page/service-worker.js",
-    "static/css/main.ba43f267.chunk.css.map": "/portfolio-page/static/css/main.ba43f267.chunk.css.map",
-    "static/js/2.1922d788.chunk.js.LICENSE.txt": "/portfolio-page/static/js/2.1922d788.chunk.js.LICENSE.txt",
+    "static/css/main.a9648967.chunk.css.map": "/portfolio-page/static/css/main.a9648967.chunk.css.map",
+    "static/js/2.adacb11e.chunk.js.LICENSE.txt": "/portfolio-page/static/js/2.adacb11e.chunk.js.LICENSE.txt",
     "static/media/Harry.jpg": "/portfolio-page/static/media/Harry.97f250d3.jpg",
     "static/media/Tramp.jpg": "/portfolio-page/static/media/Tramp.5b300631.jpg",
     "static/media/Untitled-8.jpg": "/portfolio-page/static/media/Untitled-8.db224e61.jpg",
@@ -23,8 +23,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.8748a961.js",
-    "static/js/2.1922d788.chunk.js",
-    "static/css/main.ba43f267.chunk.css",
-    "static/js/main.c640b346.chunk.js"
+    "static/js/2.adacb11e.chunk.js",
+    "static/css/main.a9648967.chunk.css",
+    "static/js/main.c5fdca67.chunk.js"
   ]
 }
