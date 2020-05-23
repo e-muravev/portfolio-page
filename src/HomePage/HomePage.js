@@ -10,10 +10,10 @@ function HomePage() {
    
    let history = useHistory();
    const goNext = () => {
-      history.push("/portfolio-page/about");
+      history.push("/about");
    }
    const goToProjects = () => {
-      history.push("/portfolio-page/projects")
+      history.push("/projects")
    }
 
    if(document.documentElement.clientWidth > 576) {
