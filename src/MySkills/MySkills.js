@@ -23,7 +23,7 @@ function MySkills() {
             <>
                 <div className="MySkills arise">
                     <div className="HTML flex-space-between" >
-                        <p>HTML/CSS/SASS</p>
+                        <p>HTML/CSS</p>
                         <div className="flex-end">
                             <p style={{marginRight: 10}}>Confident</p> 
                             <img src={confident} alt='smile' width="20px" height="20px"/>         
