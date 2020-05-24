@@ -61,7 +61,7 @@ function MySkills() {
                         <p>Git</p>
                         <div className="flex-end">
                             <p style={{marginRight: 10}}>Partly Confident</p> 
-                            <img src={partly_confident} alt='smile' width="20px" height="20px"/>         
+                            <img src={confident} alt='smile' width="20px" height="20px"/>         
                         </div>
                     </div>
                     <div className="NodeJS flex-space-between" >
