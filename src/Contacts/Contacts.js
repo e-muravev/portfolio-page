@@ -8,7 +8,7 @@ function Contacts() {
     const [text, setText] = useState('Still waiting')
     
     useEffect(() => {
-        setTimeout(()=>{
+        const timer = setTimeout(()=>{
             if(text==='Still waiting...') 
             {
                 setText('Still waiting')
@@ -17,6 +17,9 @@ function Contacts() {
                 setText(text+'.')
             } 
         }, 500)
+        return function cleanup() {
+            clearTimeout(timer)
+        }
         
     })
 
@@ -25,7 +28,7 @@ function Contacts() {
       history.push("/Projects");
     }
 
-    if(document.documentElement.clientWidth > 576)
+    if(document.documentElement.clientWidth > 768)
     {
         return (
             <div className="arise" style={{marginTop: '2rem', padding: '0 2rempx'}}>

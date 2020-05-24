@@ -33,6 +33,9 @@ function Aligment({children, ignoreButtonSize}) {
           );
         }
       }
+      return function cleanup() {
+        window.onresize = 0;
+      }
     })
     
     if (document.documentElement.clientWidth > 576)

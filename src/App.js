@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import {
   Switch,
   Route,
@@ -16,6 +16,19 @@ import NextButton from './NextButton/NextButton'
 
 
 function App() {
+
+  const [windowSize, setWindowSize] = useState('mobile')
+
+  useEffect(() => {
+    function handleResize() {
+      document.documentElement.clientWidth > 768 ? setWindowSize('desktop') : setWindowSize('mobile')
+    }
+    window.addEventListener('resize', handleResize)
+
+    return function cleanup() {
+      window.removeEventListener('resize', handleResize)
+    } 
+  })
    
   return (
     <div className="App">
@@ -24,7 +37,7 @@ function App() {
         <Switch>
           <Route exact path="/">
             <Aligment ignoreButtonSize={true}>
-                <HomePage/>
+                <HomePage />
              </Aligment>
           </Route>
           <Route path="/about">
@@ -33,9 +46,7 @@ function App() {
             </Aligment>
           </Route>
           <Route path="/skills">
-            <Aligment>
               <MySkills/>
-            </Aligment>
           </Route>
           <Route path="/projects">
             <MyProjects/>

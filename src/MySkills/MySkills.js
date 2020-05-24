@@ -18,12 +18,12 @@ function MySkills() {
 	}
     
 
-    if (document.documentElement.clientWidth > 576) {
+    if (document.documentElement.clientWidth > 768) {
         return (
             <>
                 <div className="MySkills arise">
                     <div className="HTML flex-space-between" >
-                        <p>HTML/CSS</p>
+                        <p>HTML/CSS/SASS</p>
                         <div className="flex-end">
                             <p style={{marginRight: 10}}>Confident</p> 
                             <img src={confident} alt='smile' width="20px" height="20px"/>         
@@ -51,7 +51,7 @@ function MySkills() {
                         </div>
                     </div>
                     <div className="React flex-space-between" >
-                        <p>React/Redux</p>
+                        <p>React/Redux/Router</p>
                         <div className="flex-end">
                             <p style={{marginRight: 10}}>Confident</p> 
                             <img src={confident} alt='smile' width="20px" height="20px"/>         

@@ -12,13 +12,11 @@ const Slider = () => {
 	const incrementSlider = () => {
 		let x = slider
 		if (x < 2) { setSlider(++x) }
-		console.log(x)
 	}
 
 	const decrementSlider = () => {
 		let x = slider
 		if (x > -2) {setSlider(--x)}
-	    console.log(x)
 	}
 
 	return (

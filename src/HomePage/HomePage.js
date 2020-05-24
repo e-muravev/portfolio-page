@@ -5,7 +5,7 @@ import NextButton from '../NextButton/NextButton'
 import { useHistory } from "react-router-dom";
 
 
-function HomePage() {
+function HomePage({}) {
    const text = '${Hello';
    
    let history = useHistory();
@@ -16,7 +16,7 @@ function HomePage() {
       history.push("/projects")
    }
 
-   if(document.documentElement.clientWidth > 576) {
+   if(document.documentElement.clientWidth > 768) {
       return (
          <div className="arise homepage" style={{width: '80%'}}>
            <h3>

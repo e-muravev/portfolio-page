@@ -21,7 +21,7 @@
 }
 
 a {
-	color: black;	
+    color: black;	
 } 
 
 .navbar .icon {
@@ -29,7 +29,7 @@ a {
 }
 
 
-@media (max-width: 800px) {
+@media (max-width: 768px) {
     .navbar .icon {
         display: block;
         cursor: pointer;
@@ -64,7 +64,7 @@ a {
 }
 
 
-@media (min-width: 800px) { 
+@media (min-width: 768px) { 
     .margin-right {
         margin-right: 0.75rem;
     }

@@ -19,7 +19,7 @@ function MyProjects() {
         window.open(url)
     }
     
-    if (document.documentElement.clientWidth > 576) 
+    if (document.documentElement.clientWidth > 768) 
     {
         return (
             <div className="arise flex-center" style={{padding: '0 60px', flexDirection: 'column'}}>

@@ -21,7 +21,7 @@ function AboutMe() {
 	}
 	
 
-	if(document.documentElement.clientWidth > 578)
+	if(document.documentElement.clientWidth > 768)
 	{
 		return (
 			<div className="about flex-center arise">
